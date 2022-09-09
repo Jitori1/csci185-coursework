@@ -1,0 +1,35 @@
+.body{
+    background-color:#F0F4EF;
+}
+
+.header{
+    background-color:#b4cded ;
+    font-family: Impact;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+a{
+    color: white;
+}
+
+.images{
+    display:flex;
+    justify-content: space-around;
+}
+
+.foot{
+    background-color: #344966;
+}
+
+a:link{
+    text-decoration: none;
+}

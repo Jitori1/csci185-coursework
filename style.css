@@ -9,13 +9,14 @@ body {
 }
 header, section {
     padding: 20px;
+    background-color: rgba(87, 222, 155, 0.193);
 }
 p, li {
     line-height: 1.5em;
 }
 
 #inspiration {
-    background-color: #F0F0F0;
+    background-color: #c4bddd;
     padding-top: 40px;
     padding-bottom: 40px;
 }

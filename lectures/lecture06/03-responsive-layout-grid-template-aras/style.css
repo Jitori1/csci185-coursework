@@ -21,38 +21,44 @@ body {
 .item {
   padding: 8px;
   background-color: white;
-  border: 4px solid tomato;
+  border: 4px solid rgb(137, 31, 120);
   border-radius: 6px;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
 }
 
-.height-50 {
-  height: 50vh;
+.container{
+  display: grid;
+  grid-template-columns: auto 50% auto;
+  grid-template-rows: 10% 10% 70% 10%;
+  border: solid 1px black;
+  height: 100vh;
+  row-gap: 10px;
+  column-gap: 10px;
 }
 
-/* Task 3 */
-
-.task-3.container {
+.header{
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  background-color: rgb(78, 159, 251);
 }
-
-.task-3 .header {
+.navigation{
+  grid-row-start: 2;
+  grid-column-start: 2;
+  background-color:rgb(78, 159, 251) ;
 }
-
-.task-3 .navigation {
+.sidebar{
+  grid-row-start: 2;
+  grid-row-end: 4;
 }
-
-.task-3 .ads {
+.ads{
+  grid-row-start: 2;
+  grid-row-end: 4;
 }
-
-.task-3 .sidebar {
+.footer{
+  grid-column-start: 1;
+  grid-column-end: 4;
 }
-
-.task-3 .main {
-}
-
-.task-3 .footer {
-}
-
 
 
 @media (max-width: 1020px) {
