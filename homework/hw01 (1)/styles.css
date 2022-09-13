@@ -8,6 +8,7 @@ body * {
 
 body {
     margin: 0;
+    
 }
 
 .nav{
@@ -21,8 +22,6 @@ body {
     display: grid;
     grid-template-rows: 10% 20% 10;
     color: aliceblue;
-    gri
-
 }
 
 a{
@@ -31,8 +30,27 @@ a{
 }
 
 #profile-pic{
-    display: grid;
     border-radius: 100px;
-    grid-template-columns: 30% 30% 30%;
-    grid-column-start: 2;
+}
+#about{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#projects{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(227, 234, 234);
+}
+
+.card1{
+    grid-column-start: 1;
+}
+.card2{
+    
+}
+.card3{
+    
+}
+.card4{
+    
 }
