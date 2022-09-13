@@ -13,13 +13,26 @@ body {
 .nav{
      display:flex;
      justify-content: right;
-     
- 
+     font-family: 'Courier New', Courier, monospace;
 }
+
 .header{
     background-color: rgb(51, 152, 152);
+    display: grid;
+    grid-template-rows: 10% 20% 10;
+    color: aliceblue;
+    gri
+
 }
+
 a{
     color: aliceblue;
     text-decoration: none;
+}
+
+#profile-pic{
+    display: grid;
+    border-radius: 100px;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-start: 2;
 }
