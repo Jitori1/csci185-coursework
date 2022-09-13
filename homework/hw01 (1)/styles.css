@@ -1,0 +1,25 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav{
+     display:flex;
+     justify-content: right;
+     
+ 
+}
+.header{
+    background-color: rgb(51, 152, 152);
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
