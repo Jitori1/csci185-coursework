@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    display: flex;
+    margin-left: 500px;
+    margin-right: 500px;
+    flex-direction: column;
+    justify-content: space-around;
+    
+
+}
+
+section {
+    border: solid 4px orangered;
+    width: 200px;
+    height: 75px;
+    text-align: center;
+}
