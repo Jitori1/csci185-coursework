@@ -41,22 +41,26 @@ function drawStars() {
 function draw(){
 //attempted the extra credit here
     strokeWeight(0);
-    let i ;
-    if (i==0){
-        fill('black');
+    // let i ;
+    // if (i==0){
+    //     fill('black');
     
-        i = 1;
-    }
-    else{
-        fill('white');
-    }
+    //     i = 1;
+    // }
+    // else{
+    //     fill('white');
+    // }
 
-    circle(x, y, 10);
-    circle(x, y, 10);
-    circle(x, y, 10);
-    circle(x, y, 10);
-    circle(x, y, 10);
-    circle(x, y, 10);
+
+   
+    fill("white");
+    circle(canvasWidth/2, canvasHeight/2, 8);
+    circle(canvasWidth/2+120, canvasHeight/2-20, 8);
+    circle(canvasWidth/2+60, canvasHeight/2+40, 8);
+    circle(canvasWidth/2+85, canvasHeight/2-60, 8);
+    circle(canvasWidth/2+200, canvasHeight/2-50, 8);
+    circle(canvasWidth/2+300, canvasHeight/2-50, 8);
+    circle(canvasWidth/2+400, canvasHeight/2-40, 8 );
 
 }
 
