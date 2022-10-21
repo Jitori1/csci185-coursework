@@ -51,16 +51,30 @@ function draw(){
     //     fill('white');
     // }
 
+clear();f
+   let i = 0;
+   i +=1;
+   let a=8
 
-   
+   if (a==8 && i>100){   
+    a =0;
+    i=0;
+    }
+
+    if (a==0 && i>100){   
+        a =8;
+        i=0;
+        }
+
+
     fill("white");
-    circle(canvasWidth/2, canvasHeight/2, 8);
-    circle(canvasWidth/2+120, canvasHeight/2-20, 8);
-    circle(canvasWidth/2+60, canvasHeight/2+40, 8);
-    circle(canvasWidth/2+85, canvasHeight/2-60, 8);
-    circle(canvasWidth/2+200, canvasHeight/2-50, 8);
-    circle(canvasWidth/2+300, canvasHeight/2-50, 8);
-    circle(canvasWidth/2+400, canvasHeight/2-40, 8 );
+    circle(canvasWidth/2, canvasHeight/2, a);
+    circle(canvasWidth/2+120, canvasHeight/2-20, a);
+    circle(canvasWidth/2+60, canvasHeight/2+40, a);
+    circle(canvasWidth/2+85, canvasHeight/2-60, a);
+    circle(canvasWidth/2+200, canvasHeight/2-50, a);
+    circle(canvasWidth/2+300, canvasHeight/2-50, a);
+    circle(canvasWidth/2+400, canvasHeight/2-40, a );
 
 }
 
