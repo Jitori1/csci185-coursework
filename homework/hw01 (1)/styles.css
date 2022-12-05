@@ -30,6 +30,8 @@ a{
 
 #profile-pic{
     border-radius: 100px;
+    display: flex;
+    justify-content: center;
 }
 #about{
     font-family: Arial, Helvetica, sans-serif;
