@@ -84,6 +84,10 @@ footer {
 /***************************/
 
 /* Your Code Here */
+aside {
+    padding-left: 50px;
+}
+
 
 
 
@@ -94,8 +98,42 @@ footer {
 /* Your Code Here */
 
 
+header {
+    flex-direction: row;
+    justify-content: right;
+    padding-top: 20px;
+    padding-right: 20px;
+}
 
+#upgrade {
+    border: rgba(255, 255, 255, 0.26) 3px solid;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-right: 20px;
+    border-radius: 50px;
+}
 
+#profile {
+    background-color: #222;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+nav {
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 100px;
+}
+
+nav a {
+    margin-right: 20px;
+}
 
 /*************************/
 /* Part C: Artists Panel */
@@ -105,8 +143,29 @@ footer {
    For the desktop view, there should be 5 cards per row.
 */
 
+#featured-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+.artist-card {
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    border-radius: 20px;
+    margin: 20px;
+    font-size: small;
+    width: 250px;
+    height: 350px;
+}
 
+.artist-card img {
+
+    width: 200px;
+    border-radius: 50%;
+}
 
 
 
@@ -120,7 +179,7 @@ footer {
     /* 
         Tablet Display: 3 cards per row!
     
-    */
+    */    
 }
 
 
@@ -130,6 +189,16 @@ footer {
         * The aside panel and "Upgrade" button should no longer be visible.
         * There should only be a 1-column layout.
     */
+    body {
+        overflow: hidden;
+        margin: 0px;
+        height: 100vh;
+        /* body tag is a grid */
+        display: grid;
+        grid-template-columns: 0px auto;
+        grid-template-rows: auto 100px;
+    }
+    header {
+        display: none;
+    }
 }
-
-
